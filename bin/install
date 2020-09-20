@@ -55,7 +55,7 @@ get_download_url() {
   local version="$1"
   local file_name=$(get_download_file_name $version)
 
-  echo "https://downloads.mysql.com/archives/get/file/${file_name}"
+  echo "https://downloads.mysql.com/archives/get/p/23/file/${file_name}"
 }
 
 get_download_file_name() {
